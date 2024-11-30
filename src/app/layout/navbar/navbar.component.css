@@ -1,0 +1,26 @@
+
+
+@keyframes changeColor{
+    0%{
+        color : black
+    }
+    20%{
+        color: chocolate;
+    }
+    40%{
+        color: orchid;
+    }
+    60%{
+        color: navy;
+    }
+    80%{
+        color: yellow;
+    }
+    100%{
+        color: black;
+    }
+}
+/* animation : animation_name infinite duration */
+.demo{
+    animation: changeColor infinite 5s;
+}

@@ -1,0 +1,30 @@
+{
+  "students": [
+    {
+      "id": "b4a2",
+      "fname": "Rishabh",
+      "lname": "Pant",
+      "address": "Warje",
+      "gender": "male",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "dob": "17 June 1990",
+      "pincode": "411052",
+      "course": "React",
+      "email": "rishabh@gmail.com"
+    },
+    {
+      "id": "c0ef",
+      "fname": "Asiya",
+      "lname": "Shaikh",
+      "address": "Osmanabad",
+      "gender": "female",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "dob": "2024-10-02",
+      "pincode": "4112200",
+      "course": "Web Application",
+      "email": "asiya@gmail.com"
+    }
+  ]
+}

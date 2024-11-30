@@ -1,0 +1,14 @@
+<div class="bg-primary w-50 mx-auto p-4 mt-4 rounded-4">
+    <h1 class="text-center">ADMIN LOGIN DETAILS</h1>
+    <form [formGroup]="loginForm" (ngSubmit)="adminloggedIn ()">
+        <div>
+            <input type="text" class="w-100 mb-3 p-2" formControlName="username">
+        </div>
+        <div>
+            <input type="password" class="w-100 p-2" formControlName="password">
+        </div>
+        <div class="text-center mt-3">
+            <button class="btn btn-success">ADMIN LOGIN</button>
+        </div>
+    </form>
+</div>
